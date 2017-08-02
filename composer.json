@@ -1,5 +1,5 @@
 {
-  "name": "srmklive/paypal",
+  "name": "mojpoj/paypal",
   "type": "library",
   "description": "Laravel plugin For Processing Payments Through Paypal Express Checkout. Can Be Used Independently With Other Applications.",
   "keywords": ["http", "rest", "web service", "paypal", "laravel paypal"],
@@ -12,7 +12,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Srmklive\\PayPal\\": "src/"
+      "Mojpoj\\PayPal\\": "src/"
     }
   },
   "require": {
@@ -26,7 +26,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Srmklive\\PayPal\\Providers\\PayPalServiceProvider"
+        "Mojpoj\\PayPal\\Providers\\PayPalServiceProvider"
       ]
     }
   },
